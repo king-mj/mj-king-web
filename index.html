@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://sach-71.github.io/sachmo/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS LINK-->
+    <title>King | Web</title>
+</head>
+<body class="bg">
+    <!--MAIN PAGE STARTS -->
+ 
+    <div class="wrapper">
+        <header>
+            <img src="logo.png"class="logo1"></img>
+            <nav>
+               
+            <ul class="ul">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="timeline.html">Journey</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li><a href="mailto:mohitrajjadeja4@gmail.com">CONTACT US</a></li>
+                
+            </ul>
+            </nav>
+            <img class="menu" src="menu.png">
+        </header>
+
+        <section class="hero">
+            <h1 class="king1"> Hi! I'm <br>Jadeja Mohitrajsinh</h1>
+            <p class="subhead">A Computer Science student.</p><br>
+        </section>
+
+<footer>
+    <h3>DEVELOPED BY King.</h3>
+    <small>© Copyright 2022, King Inc.</small>
+</footer>
+   </div> 
+<!--MAIN PAGE ENDS-->
+
+<script>
+    const menu = document.querySelector('.menu')
+    const close = document.querySelector('.close')
+    const nav = document.querySelector('nav')
+
+    menu.addEventListener('click',() => {
+        nav.classList.add('open-nav')
+    })
+
+    close.addEventListener('click',() => {
+        nav.classList.remove('open-nav')
+    })
+</script>
+</body>
+</html>
