@@ -9,16 +9,23 @@
 
   <style>
  body {
-  margin:10%;
+   margin: 10%;
    margin-left:0;
    background-color: darkgreen;
+
+}
+
+a h1{
+  list-style-type: none;
+  color: white;
+  padding-left: 8cm;
 }
 
 #slider {
   position: relative;
   width: 710px;
   height: 500px;
- 
+  align-content: center;
   overflow: hidden;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
@@ -63,14 +70,15 @@
   box-shadow: 2px 2px 2px 2px black;
 }
 #slider #prev {
-  left: 10px;
+  left: 5px;
 }
 #slider #next {
-  right: 10px;
+  right: 5px;
 }
   </style>
 </head>
 <body>
+  <a href="index.html"><h1>Gallery</h1></a>
   <div id="slider">
     <ul id="slideWrap"> 
       <li><img src="lake.jpg" alt=""></li>
